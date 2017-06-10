@@ -1,0 +1,1 @@
+(x for _ in iter(int, 1) for x, z in (((0, 1),) if 'x' not in locals() else ((x + z, x),)))
