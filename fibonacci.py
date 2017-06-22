@@ -1,1 +1,1 @@
-lambda n: [x for i in range(n) for x, z in (((0, 1),) if i == 0 else ((x + z, x),))]
+lambda n: [x for i in range(n) for x, z in (((x + z, x),) if i else ((0, 1),))]
